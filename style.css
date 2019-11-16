@@ -1,8 +1,16 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 
 
+/*About */
+.about-container {
+background-size: cover;
+background-position: auto;
+margin-left: 0;
+margin-right: 0;
 
+}
 
 
 
@@ -30,43 +38,49 @@
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+/*logo*/
 .logo {
   background:contain;
 }
+/*wlecome*/
+.welcome {
+  background-color: white;
+  border: solid;
+ 
+}
+/*team-header*/
+.team-header {
+ font-family: 'Slabo 20px', serif;
+}
 
-/*--- Fixed Background Image --*/
-figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
+/*Links*/
+a{
+    color: inherit;
+    text-decoration: none;
 }
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+
+a:hover{
+  color:grey;
+ 
 }
-#fixed {
-  background-image: url('../images.wl17.jpg');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
+/*Card Elements*/
+.card-img-top {
+  background-size:cover;
+  transition: all 1s;
 }
-/*--- Bootstrap Padding Fix --*/
-[class*="col-"] {
-    padding: 1rem;
+.card-img-top:hover {
+  transform: scale(0.9);
 }
+
+
+
+/*Footer*/
+footer {
+  color: white;
+background-color:grey;
+
+}
+
 
 
 
